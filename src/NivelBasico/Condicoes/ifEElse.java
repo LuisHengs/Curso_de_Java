@@ -1,6 +1,4 @@
-package Condicoes;
-
-import java.util.Arrays;
+package NivelBasico.Condicoes;
 
 public class ifEElse {
     public static void main(String[] args) {
