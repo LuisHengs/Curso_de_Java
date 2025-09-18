@@ -16,13 +16,13 @@ public class LacosDeRepeticao {
 
         while (numeroDeClones <= numeroMaxDeClones) {
             numeroDeClones++;
-            System.out.println("O Naruto fez um clone das sombras " + numeroDeClones);
+            System.out.println("while O Naruto fez um clone das sombras " + numeroDeClones);
         }
 
         // FOR
 
         for (int i = 0; i <= numeroMaxDeClones; i++) {
-            System.out.println("O Naruto esta se clonando e ja se clonou " + i);
+            System.out.println("for O Naruto esta se clonando e ja se clonou " + i);
         }
 
 
