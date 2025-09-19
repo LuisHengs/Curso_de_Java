@@ -47,9 +47,14 @@ public class desafio2 {
                         System.out.println("Nenhum ninja encontrado");
                     } else {
                         System.out.println("Lista de ninjas =======");
-                        for (int i = 0; i < ninjas.length; i++) {
+
+                        //só os que foram cadastrados
+                        for (int i = 0; i < ninjasCadastrados; i++) {
                             System.out.println(ninjas[i]);
                         }
+                        /*for (int i = 0; i < ninjas.length; i++) {
+                            System.out.println(ninjas[i]);
+                        }*/
                     }
                     break;
 
