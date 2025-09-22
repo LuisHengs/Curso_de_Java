@@ -11,22 +11,25 @@ public class Ninja {
     * */
 
     // Criar um metodo Publico personalizado
-    public void SharinganAtivado() {
+    /*
+    *public void SharinganAtivado() {
         System.out.println("O sharigan Ativou");
-    }
+    }/
 
     /*
     * Metodo String vai ter que retornar uma String
     * */
-    public String EuSouUmNinja() {
+    /*public String EuSouUmNinja() {
         return "Oi, Eu sou um ninja!";
-    }
+    }*/
 
     /*
     * Metodo Int vai ter que retornar um int
     * */
+    /*
     public int anosParaSeTornarHokage(int idadeMinimaParaSerHokage) {
         return idadeMinimaParaSerHokage - idade;
     }
+    * */
 
 }
