@@ -39,10 +39,19 @@ public class Main {
         //Sakura.aldeia = "Aldeia da Folha";
         //Sakura.idade = 18;
 
-        Ninja Hinata = new Ninja();
+        Hyuga Hinata = new Hyuga();
         Hinata.nome = "Hinata Hyuga";
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.idade = 16;
+        Hinata.ativarByakugan();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da folha";
+        Boruto.idade = 9;
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
 
         // Aplicando Metodos aos meus objetos
         //Sasuke.SharinganAtivado();
