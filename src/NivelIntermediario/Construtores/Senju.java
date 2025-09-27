@@ -1,4 +1,4 @@
-package Construtores;
+package NivelIntermediario.Construtores;
 
 public class Senju extends Hokages{
 
