@@ -2,6 +2,14 @@ package NivelIntermediario.Polimorfismo;
 
 public class Uchiha extends Ninja {
 
+    public Uchiha() {
+        super();
+    }
+
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
     // Sobreescrever o metodo da classe ninja
     @Override
     public void habilidadeEspecial(){
