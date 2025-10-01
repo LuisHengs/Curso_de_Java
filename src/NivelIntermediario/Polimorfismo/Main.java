@@ -6,25 +6,22 @@ public class Main {
         // Obj ninja não da para ser criado por que é abstrato
 
         // Obj Uzumaki
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.aldeia = "Aldeia da Folha";
-        naruto.idade = 16;
-
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha", 16, 18, NivelNinja.GENIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
 
         // Obj Uchiha
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.aldeia = "Aldeia da Folha";
-        sasuke.idade = 17;
-
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da Folha", 18, 20, NivelNinja.GENIN);
         sasuke.habilidadeEspecial();
 
         // Obj Uchiha 2
         Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da folha", 27);
         itachi.habilidadeEspecial();
+
+        //Obj Uchiha 3
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaDeBatalhaNinja();
 
     }
 }
