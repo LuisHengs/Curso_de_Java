@@ -40,4 +40,9 @@ public class Uchiha extends Ninja {
         }
     }
 
+    //É uma padronização do Java!
+    @Override
+    public void metodoProvisorio() {
+        System.out.println("teste na classe Uchiha");
+    }
 }
