@@ -14,7 +14,8 @@ public class Main {
         System.out.println(naruto.altura);
         System.out.println("-------");
 
-        Anbu ninjaAnbu = new Anbu();
+        Anbu ninjaAnbu;
+        ninjaAnbu = new Anbu();
         ninjaAnbu.nome = "Ninja Aleatorio";
         System.out.println("-------");
 
