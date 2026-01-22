@@ -6,7 +6,7 @@ public class Main {
         // Obj ninja não da para ser criado por que é abstrato
 
         // Obj Uzumaki
-        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha", 16, 18, NivelNinja.GENIN);
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha", 16, 18, NivelNinja.GENIN, Bijus.KURAMA);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalhaNinja();
         System.out.println("-------");

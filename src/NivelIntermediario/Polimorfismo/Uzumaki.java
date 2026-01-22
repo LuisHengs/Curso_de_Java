@@ -2,6 +2,8 @@ package NivelIntermediario.Polimorfismo;
 
 public class Uzumaki extends Ninja {
 
+    Bijus bijus;
+
     public Uzumaki() {
     }
 
@@ -11,6 +13,11 @@ public class Uzumaki extends Ninja {
 
     public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+    }
+
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank, Bijus bijus) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+        this.bijus = bijus;
     }
 
     // Sobreescrever o metodo da classe ninja
